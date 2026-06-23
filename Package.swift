@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Framework",
-            url: "https://github.com/company/FrameworkBinary/releases/download/1.0.0/Framework.xcframework.zip",
+            url: "https://github.com/MariamElenna/FrameworkBinary/releases/download/1.0.0/Framework.xcframework.zip",
             checksum: "الـ checksum"
         )
     ]
