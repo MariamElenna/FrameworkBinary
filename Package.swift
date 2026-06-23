@@ -1,12 +1,6 @@
-//
-//  Package.swift
-//  
-//
-//  Created by Mariam Elenna on 23/06/2026.
-//
+// swift-tools-version: 6.0
 
-import Foundation
-// Package.swift
+import PackageDescription
 
 let package = Package(
     name: "Framework",
@@ -20,7 +14,7 @@ let package = Package(
         .binaryTarget(
             name: "Framework",
             url: "https://github.com/MariamElenna/FrameworkBinary/releases/download/1.0.0/Framework.xcframework.zip",
-            checksum: "الـ checksum"
+            checksum: "62c4cc1cfc23a8b54eb082119e3a9fb5c0dc7d81b5edcd519f44d21960029a2e"
         )
     ]
 )
